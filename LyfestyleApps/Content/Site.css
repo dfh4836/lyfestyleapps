@@ -1,0 +1,174 @@
+﻿body {
+    /*padding-bottom: 20px;*/
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    /*padding-left: 15px;
+    padding-right: 15px;*/
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+footer{
+    height:162px;
+    background:#333;
+    padding:0px;
+    color: #858585;
+}
+.navbar-brand-custom {
+    color: white;
+    white-space: nowrap;
+    font-size: 4em;
+    padding-left: 0px;
+}
+#logo{
+    white-space: nowrap;
+}
+.navbar-brand-custom:hover {
+    color: #2FD89C;
+}
+#eat-text:hover{
+    color: #3BE932;
+}
+#train-text:hover{
+    color: #FF7837;
+}
+#live-text:hover{
+    color: #34ABD3;
+}
+
+.eat-background-image:after {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-image: url('food-compressed.jpg');
+    opacity: 0.4;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.train-background-image:after {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-image: url('train-compressed.jpg');
+    opacity: 0.4;
+    background-repeat: no-repeat;
+    background-position: 50% 25%;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.live-background-image:after {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-image: url('live-compressed.jpg');
+    opacity: 0.4;
+    background-repeat: no-repeat;
+    background-position: center;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.nav-background-image{
+    content: ' ';
+    display: block;
+    /*position: absolute;*/
+    /*left: 0;
+    top: 0;*/
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-image: url('backdrop.jpg');
+    /*opacity: 0.4;*/
+    background-repeat: no-repeat;
+    background-position: 75% 50%;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.apps img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    opacity: 0.6;
+}
+.train-background{
+    background-color: #FF7837;
+}
+.live-background{
+    background-color: #34ABD3;
+}
+.eat-background{
+    background-color: #3BE932;
+}
+.lyfestyle-text:hover{
+    color: #2FD89C;
+}
+.app-section{
+    margin-bottom: 0px;
+}
+a{
+    color: inherit;
+}
+a:hover{
+    color: inherit;
+}
+h1{
+    color: white;
+}
+h2{
+    opacity:1;
+}
+.navbar-custom{
+    /*background: url('../Content/img-noise-10x165.png') repeat-x;*/
+    border-color: #080808;
+    height: 165px;
+    border-radius: 0px;
+    border-bottom: 5px solid #2FD89C;
+
+}
+.more-info-holder{
+    height: 100px;
+    background: #f6f6f6;
+}
