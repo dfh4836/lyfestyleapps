@@ -30,7 +30,7 @@ footer{
 .navbar-brand-custom {
     color: white;
     white-space: nowrap;
-    font-size: 4em;
+    font-size: 3em;
     padding-left: 0px;
 }
 #logo{
@@ -118,7 +118,7 @@ footer{
     background-image: url('backdrop.jpg');
     /*opacity: 0.4;*/
     background-repeat: no-repeat;
-    background-position: 75% 50%;
+    background-position: center;
     -ms-background-size: cover;
     -o-background-size: cover;
     -moz-background-size: cover;
